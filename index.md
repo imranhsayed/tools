@@ -1,8 +1,22 @@
-## Welcome to GitHub Pages
+## Npm Commands
 
-You can use the [editor on GitHub](https://github.com/imranhsayed/tools/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+* Update node and npm
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+```shell
+brew update
+brew doctor
+brew upgrade node
+```
+
+
+### [Update npm packages](https://docs.npmjs.com/updating-packages-downloaded-from-the-registry)
+
+Run this from the root of your project
+
+```sheel
+npm update
+```
+
 
 ### Markdown
 
