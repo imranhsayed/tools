@@ -13,6 +13,22 @@ brew upgrade node
 brew search php
 ```
 
+# List security breaches 
+npm audit
+# Upgrade of minor and patch version following your version ranges in package.json
+yarn outdated
+yarn upgrade
+# Interactive upgrade of minor and patch version following your version ranges in package.json 
+yarn upgrade-interactive
+# List outdated dependencies including major version
+yarn upgrade-interactive --latest
+# Same with npm
+npm outdated
+npm update
+# Tool for upgrading to major versions (with potential breaking changes)
+npm install -g npm-check-updates
+ncu
+
 
 ### [Update npm packages](https://docs.npmjs.com/updating-packages-downloaded-from-the-registry)
 
