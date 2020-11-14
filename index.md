@@ -8,6 +8,11 @@ brew doctor
 brew upgrade node
 ```
 
+* Search php
+```shell
+brew search php
+```
+
 
 ### [Update npm packages](https://docs.npmjs.com/updating-packages-downloaded-from-the-registry)
 
