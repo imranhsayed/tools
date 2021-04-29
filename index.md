@@ -8,6 +8,20 @@ brew doctor
 brew upgrade node
 ```
 
+* Update composer globally
+```shell
+cd ~
+brew install composer
+rm /usr/local/bin/composer # Remove previously installed composer
+brew link composer # Link the new version of composer
+```
+
+* Composer commands
+```shell
+which composer
+composer --version
+```
+
 * Search php
 ```shell
 brew search php
